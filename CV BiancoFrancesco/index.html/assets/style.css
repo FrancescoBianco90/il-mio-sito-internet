@@ -1,0 +1,158 @@
+/* === IMPORT FONT RETRO === */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* === BODY & BACKGROUND === */
+body {
+    background-image: url(../assets/sfondovideogames.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Press Start 2P', monospace;
+    margin: 0;
+}
+
+/* === HERO SECTION === */
+.hero {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+
+/* === SEZIONI CON SFONDO TRASLUCIDO === */
+section, .hero, footer {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* === TESTO LEGGIBILE & COLORE === */
+h1, h2, h4, p, a {
+    color: rgb(229, 235, 236) !important;
+    text-shadow: #000000;
+}
+
+/* === NAVBAR === */
+.navbar-nav .nav-link:hover {
+    color: #0ff !important;
+    text-decoration: underline;
+}
+
+.navbar a i {
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.navbar a i:hover {
+    color: #0ff;
+}
+
+/* === LINK PERSONALIZZATI === */
+.link-ciano {
+  color: inherit;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.link-ciano:hover {
+  color: #0ff !important;
+}
+
+/* === BLOCCHI SEZIONI AFFIANCATI (ESPERIENZE, COMPETENZE, FORMAZIONE) === */
+.custom-block-bg {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    color: #e5ebec;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 20px;
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-block-bg:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+}
+
+.blocchi-sezioni .icona i {
+    text-shadow: 2px 2px 4px #000;
+}
+
+/* === TITOLO "CONTATTAMI" TRASLUCIDO === */
+.titolo-contattami {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    border-radius: 12px;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+    margin-bottom: 20px;
+}
+
+/* === FORM CONTATTI === */
+.form-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+footer form .form-control {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: 1px solid #0ff;
+}
+
+footer form .form-control::placeholder {
+    color: #ccc;
+}
+
+footer form .form-control:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: #0ff;
+    box-shadow: none;
+}
+
+/* === FOOTER SOCIAL ICONS === */
+footer a {
+    color: #0ff;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+footer {
+    background-color: #111;
+    color: #fff;
+}
+
+/* === RESPONSIVE ALIGNMENT === */
+
+@media (max-width: 767px) {
+    .titolo-contattami,
+    .form-container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.cv-section {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.1);
+}
+
+.cv-section h1, .cv-section h2, .cv-section p, .cv-section li {
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+  margin-bottom: 10px;
+}
+
+.cv-section ul {
+  padding-left: 20px;
+}

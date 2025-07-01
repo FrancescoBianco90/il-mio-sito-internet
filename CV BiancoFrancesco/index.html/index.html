@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Il mio Sito Personale</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Francesco Bianco</a>
+      <div class="collapse navbar-collapse justify-content-end">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="cv.html" target="_blank">Il mio CV</a></li>
+          <li class="nav-item"><a class="nav-link" target="_blank">Contatti :</a></li>
+        </ul>
+        <!-- Icone social nella navbar -->
+        <div class="ms-3 d-flex align-items-center">
+          <a href="https://linkedin.com/in/tuo-profilo" class="text-white me-2"><i class="fab fa-linkedin"></i></a>
+          <a href="https://facebook.com/tuo-profilo" class="text-white me-2"><i class="fab fa-facebook"></i></a>
+          <a href="https://github.com/FrancescoBianco90" class="text-white me-2"><i class="fab fa-github"></i></a>
+          <a href="mailto:tuamail@example.com" class="text-white"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Immagine personale -->
+  <header class="hero text-center text-white">
+    <img src="assets/francosviluppatore_scontornato.png" alt="La mia immagine" class="img-fluid rounded-circle my-4" width="250" />
+    <h1>Benvenuto nel mio sito!</h1>
+  </header>
+
+  <!-- Descrizione -->
+  <section class="container text-center my-5">
+    <p class="lead">Inizia il mio nuovo cammino da <strong>studente Full Stack Developer</strong> con <a href="https://www.start2impact.it/" target="_blank" class="link-ciano">Start2Impact</a>.</p>
+    <p>Guarda uno dei miei primi progetti HTML/CSS:</p>
+    <a href="link-al-tuo-progetto.html" class="btn btn-primary" target="_blank">Visualizza Progetto</a>
+  </section>
+
+  <!-- Sezioni in blocchi orizzontali -->
+  <section class="container my-5">
+    <div class="row text-center">
+
+      <!-- About Me -->
+      <div class="col-md-4 mb-4">
+        <div class="p-4 shadow rounded h-100 custom-block-bg">
+          <div class="mb-3">
+            <i class="fa-solid fa-user fa-3x" style="color:blueviolet"></i>
+          </div>
+          <h3>About Me</h3>
+          <p>Mi chiamo Francesco Bianco, ho lavorato come tecnico giuntista specializzato in reti FTTH nel settore delle telecomunicazioni per diversi anni. Ho maturato esperienza sia come panettiere che come tecnico delivery di fibra ottica, imparando la precisione e l’affidabilità che metto oggi in ogni progetto. Mi piace affrontare nuove sfide e collaborare in squadra per portare a termine lavori complessi.</p>
+        </div>
+      </div>
+
+      <!-- Hobby -->
+      <div class="col-md-4 mb-4">
+        <div class="p-4 shadow rounded h-100 custom-block-bg">
+          <div class="mb-3">
+            <i class="fa-solid fa-music fa-3x text-center" style="color:gold"></i>    
+          </div>
+          <h3>Hobby</h3>
+          <p>Amo la musica in tutte le sue sfumature e generi, con una particolare passione per la collezione di vinili, che custodisco con cura. Sono sempre alla ricerca di nuova musica da scoprire e ascoltare, un viaggio continuo tra suoni e atmosfere diverse. Inoltre, adoro i videogiochi specialmente quelli di ruolo competitivi che mi trasmettono adrenalina e pathos. Infine, sono un appassionato di calcio, uno sport che seguo con entusiasmo e passione.</p>
+        </div>
+      </div>
+
+      <!-- Obiettivi -->
+      <div class="col-md-4 mb-4">
+        <div class="p-4 shadow rounded h-100 custom-block-bg">
+          <div class="mb-3">
+            <i class="fa-solid fa-arrow-pointer fa-3x" style="color:darkgreen"></i>
+          </div>
+          <h3>Obiettivi</h3>
+          <p>Mi sono approcciato a questo percorso di Full Stack Developer con tanta determinazione e voglia di imparare. Voglio acquisire maggiori competenze e mi piace mettermi alla prova per verificare le competenze acquisite. Voglio reinventarmi come Sviluppatore Web e, crescendo nel settore, ottenere un maggiore equilibrio vita-lavoro.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Sezione Contattami centrata -->
+<section id="contatti" class="text-center mb-5">
+  <h2 class="titolo-contattami">Contattami</h2>
+  <div class="form-container mx-auto">
+    <form>
+      <div class="mb-3">
+        <input type="email" class="form-control" placeholder="La tua email" />
+      </div>
+      <div class="mb-3">
+        <textarea class="form-control" placeholder="Il tuo messaggio"></textarea>
+      </div>
+      <button class="btn btn-primary" type="submit">Invia</button>
+    </form>
+  </div>
+</section>
+
+</body>
+</html>
